@@ -89,8 +89,8 @@ with open(filepath, 'r', encoding='utf-8') as f:
         imagebase64_list.append(line[4])
 
 #extract entity
-#http://172.16.20.73:8000/api/EntityRelationEx/
-url = "http://172.16.16.103:8000/api/EntityRelationEx/"
+#http://0.0.0.0:8000/api/EntityRelationEx/
+url = "http://0.0.0.0:8000/api/EntityRelationEx/"
 headers = {'Content-Type': 'application/json'}
 typeveclist = []
 finaltypelist = []
