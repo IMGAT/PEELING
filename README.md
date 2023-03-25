@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
    * download <a href="https://huggingface.co/whaleloops/phrase-bert"> phrase-bert </a>
 
-3. Replace "xxx"s with the path to datasets and the path to phrase-best model in VQApipeline.py
+3. Replace "xxx"s with the path to datasets and the path to phrase-best model in `VQApipeline.py`
 
 4. Run scripts
 ```bash
