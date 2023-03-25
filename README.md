@@ -77,10 +77,10 @@ IMAGT is an image-aware text perturbation approach for automated testing VG mode
 ## Usage
 
 1. Installation
-
-
-git clone https://github.com/OFA-Sys/OFA
+```bash
+git clone https://github.com/IMAGT/IMAGT.git
 pip install -r requirements.txt
+```
 
 2. Download datasets and Checkpoints(phrase-bert)
 
@@ -90,15 +90,17 @@ pip install -r requirements.txt
 
    - download RefCOCOg to data/RefCOCOg
 
-   - download phrase-bert(https://huggingface.co/whaleloops/phrase-bert)
+   - download <a href="https://huggingface.co/whaleloops/phrase-bert"> phrase-bert </a>
 
 3. Replace "xxx"s with the path to datasets and the path to phrase-best model in VQApipeline.py
 
 4. Run scripts
-
+```bash
    python app.py  
-
    python VQApipeline.py
+```
+
+
 
 
 
