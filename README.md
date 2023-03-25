@@ -62,12 +62,9 @@ IMAGT is an image-aware text perturbation approach for automated testing VG mode
 ## Datasets and Checkpoints
 
 1. Origin Datasets
-
-   - RefCOCO: https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcoco_data/refcoco_data.zip
-
-   - RefCOCO+: https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocoplus_data/refcocoplus_data.zip
-
-   - RefCOCOg: https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocog_data/refcocog_data.zip
+ * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcoco_data/refcoco_data.zip"> Dataset for RefCOCO </a>
+ * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocoplus_data/refcocoplus_data.zip"> Dataset for RefCOCO+ </a>
+ * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocog_data/refcocog_data.zip"> Dataset for RefCOCOg </a>
 
 2. Our new generated Datasets
 
@@ -80,6 +77,7 @@ IMAGT is an image-aware text perturbation approach for automated testing VG mode
 ## Usage
 
 1. Installation
+
 
 git clone https://github.com/OFA-Sys/OFA
 pip install -r requirements.txt
