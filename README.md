@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 2. Download datasets and Checkpoints(phrase-bert)
-* download RefCOCO to `data/RefCOCO`
+   * download RefCOCO to `data/RefCOCO`
 
    * download RefCOCO+ to `data/RefCOCO+`
 
