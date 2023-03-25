@@ -28,11 +28,11 @@ pip install -r requirements.txt
 
 2. Download datasets and Checkpoints(phrase-bert)
 
-   * download RefCOCO to data/RefCOCO
+   * download RefCOCO to `data/RefCOCO`
 
-   * download RefCOCO+ to data/RefCOCO+
+   * download RefCOCO+ to `data/RefCOCO+`
 
-   * download RefCOCOg to data/RefCOCOg
+   * download RefCOCOg to `data/RefCOCOg`
 
    * download <a href="https://huggingface.co/whaleloops/phrase-bert"> phrase-bert </a>
 
