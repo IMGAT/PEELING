@@ -11,11 +11,11 @@ IMAGT is an image-aware text perturbation approach for automated testing VG mode
  * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocog_data/refcocog_data.zip"> Dataset for RefCOCOg </a>
 
 2. Our new generated Datasets
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcoco_data/refcoco_data.zip"> Dataset for RefCOCO </a>
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocoplus_data/refcocoplus_data.zip"> Dataset for RefCOCO+ </a>
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocog_data/refcocog_data.zip"> Dataset for RefCOCOg </a>
+ * <a href="https://pan.baidu.com/s/1iZJCyPCv28JEZFtYVLf3JQ?pwd=4jk1"> RefCOCO </a>
+ * <a href="https://pan.baidu.com/s/1U8oDe_j5PTJODviYxXkosg?pwd=5iet"> RefCOCO+ </a>
+ * <a href="https://pan.baidu.com/s/1vy2SKhYfNdYLUJyFH8fnGQ?pwd=6ci5"> RefCOCOg </a>
  
-3. Our Model
+3. <a href="https://pan.baidu.com/s/16Wtwbwv9rAUvVtn1O1KePw?pwd=nnc9"> Our Model </a>
 
 ## Usage
 
