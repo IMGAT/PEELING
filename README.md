@@ -15,7 +15,7 @@ IMAGT is an image-aware text perturbation approach for automated testing VG mode
  * <a href="https://pan.baidu.com/s/1U8oDe_j5PTJODviYxXkosg?pwd=5iet"> RefCOCO+ </a>
  * <a href="https://pan.baidu.com/s/1vy2SKhYfNdYLUJyFH8fnGQ?pwd=6ci5"> RefCOCOg </a>
  
-3. <a href="https://pan.baidu.com/s/16Wtwbwv9rAUvVtn1O1KePw?pwd=nnc9"> Our Model </a>
+3. <a href="https://pan.baidu.com/s/16Wtwbwv9rAUvVtn1O1KePw?pwd=nnc9"> Our Model for Entity Extract </a>
 
 ## Usage
 
