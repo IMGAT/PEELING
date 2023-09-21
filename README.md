@@ -14,7 +14,7 @@ IMGAT is an image-aware text perturbation approach for automated testing VG mode
  * <a href="https://drive.google.com/file/d/1CZ0TL1k5CjIBwY8uYD16JrEjpkifbSht/view?usp=sharing"> RefCOCO </a>
  * <a href="https://drive.google.com/file/d/1hmypB2rdu4sjsGDFa8ySmOLc3TWsdI9h/view?usp=sharing"> RefCOCO+ </a>
  * <a href="https://drive.google.com/file/d/16Q_bMuJux05vGrP50DuKpqBteqBsleT1/view?usp=sharing"> RefCOCOg </a>
- 
+
 3. Our extracted entity Dataset
  * <a href="https://docs.google.com/spreadsheets/d/1FSQDxa35IEocWwEmfubt8qLiCostpwcc/edit?usp=sharing&ouid=109608198492206193226&rtpof=true&sd=true"> Entities for RefCOCO </a>
  * <a href="https://docs.google.com/spreadsheets/d/1KWV9JhQpm8I-iTt0x-Yf04H6Ge-kFHvQ/edit?usp=sharing&ouid=109608198492206193226&rtpof=true&sd=true"> Entities for RefCOCO+ </a>
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
    * download <a href="https://huggingface.co/whaleloops/phrase-bert"> phrase-bert </a>
 
-3. Replace "xxx"s with the path to datasets and the path to phrase-best model in `VQApipeline.py`
+3. Replace "xxx"s with the path to datasets and the path to phrase-best model in `IMGAT.py`
 
 4. Run scripts
 ```bash
@@ -99,7 +99,6 @@ pip install -r requirements.txt
 - python-Levenshtein
 
 - zhconv 
-
 
 
 
