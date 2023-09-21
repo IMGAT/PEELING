@@ -6,16 +6,19 @@ IMGAT is an image-aware text perturbation approach for automated testing VG mode
 ## Datasets and Checkpoints
 
 1. Origin Datasets
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcoco_data/refcoco_data.zip"> Dataset for RefCOCO </a>
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocoplus_data/refcocoplus_data.zip"> Dataset for RefCOCO+ </a>
- * <a href="https://ofa-beijing.oss-cn-beijing.aliyuncs.com/datasets/refcocog_data/refcocog_data.zip"> Dataset for RefCOCOg </a>
+ * <a href="https://github.com/OFA-Sys/OFA/blob/main/datasets.md"> Dataset for RefCOCO </a>
+ * <a href="https://github.com/OFA-Sys/OFA/blob/main/datasets.md"> Dataset for RefCOCO+ </a>
+ * <a href="https://github.com/OFA-Sys/OFA/blob/main/datasets.md"> Dataset for RefCOCOg </a>
 
 2. Our new generated Datasets
- * <a href="https://pan.baidu.com/s/1iZJCyPCv28JEZFtYVLf3JQ?pwd=4jk1"> RefCOCO </a>
- * <a href="https://pan.baidu.com/s/1U8oDe_j5PTJODviYxXkosg?pwd=5iet"> RefCOCO+ </a>
- * <a href="https://pan.baidu.com/s/1vy2SKhYfNdYLUJyFH8fnGQ?pwd=6ci5"> RefCOCOg </a>
+ * <a href="https://drive.google.com/file/d/1CZ0TL1k5CjIBwY8uYD16JrEjpkifbSht/view?usp=sharing"> RefCOCO </a>
+ * <a href="https://drive.google.com/file/d/1hmypB2rdu4sjsGDFa8ySmOLc3TWsdI9h/view?usp=sharing"> RefCOCO+ </a>
+ * <a href="https://drive.google.com/file/d/16Q_bMuJux05vGrP50DuKpqBteqBsleT1/view?usp=sharing"> RefCOCOg </a>
  
-3. <a href="https://pan.baidu.com/s/16Wtwbwv9rAUvVtn1O1KePw?pwd=nnc9"> Our Model for Entity Extract </a>
+3. Our extracted entity Dataset
+ * <a href="https://docs.google.com/spreadsheets/d/1FSQDxa35IEocWwEmfubt8qLiCostpwcc/edit?usp=sharing&ouid=109608198492206193226&rtpof=true&sd=true"> Entities for RefCOCO </a>
+ * <a href="https://docs.google.com/spreadsheets/d/1KWV9JhQpm8I-iTt0x-Yf04H6Ge-kFHvQ/edit?usp=sharing&ouid=109608198492206193226&rtpof=true&sd=true"> Entities for RefCOCO+ </a>
+ * <a href="https://docs.google.com/spreadsheets/d/1_4TomBy3ckAghbH2pS5XcAORMo74HWWe/edit?usp=sharing&ouid=109608198492206193226&rtpof=true&sd=true"> Entities for RefCOCOg </a>
 
 ## Usage
 
@@ -38,8 +41,8 @@ pip install -r requirements.txt
 
 4. Run scripts
 ```bash
-   python app.py  
-   python VQApipeline.py
+   python entity_extraction.py 
+   python IMGAT.py
 ```
 ## Requirements
 
