@@ -3,6 +3,8 @@
 
 IMGAT is an image-aware text perturbation approach for automated testing VG model. It is the first approach to combine image and text information for metamorphosis testing. The core idea is that VG model should locate the original target region on the image if we could find an concise expression which describes the original object and there is no other objects on the image satisfy the description. Specifically, IMGAT (1) extracts object and properties from original expression; (2) reorganizes object and properties into candidate concise representations; (3) selects satisfactory concise expressions by understanding the semantics of the image with the help of VQA model; (4) puts concise expression through semantically-equivalent perturbation to generate test suite.
 
+![Method](method.png)
+
 ## Datasets and Checkpoints
 
 1. Origin Datasets
