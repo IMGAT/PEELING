@@ -1,7 +1,7 @@
-# IMGAT
+# PEELING
 
 
-IMGAT is an image-aware text perturbation approach for automated testing VG model. It is the first approach to combine image and text information for metamorphosis testing. The core idea is that VG model should locate the original target region on the image if we could find an concise expression which describes the original object and there is no other objects on the image satisfy the description. Specifically, IMGAT (1) extracts object and properties from original expression; (2) reorganizes object and properties into candidate concise representations; (3) selects satisfactory concise expressions by understanding the semantics of the image with the help of VQA model; (4) puts concise expression through semantically-equivalent perturbation to generate test suite.
+PEELING is an image-aware text perturbation approach for automated testing VG model. It is the first approach to combine image and text information for metamorphosis testing. The core idea is that VG model should locate the original target region on the image if we could find an concise expression which describes the original object and there is no other objects on the image satisfy the description. Specifically, PEELING (1) extracts object and properties from original expression; (2) reorganizes object and properties into candidate concise representations; (3) selects satisfactory concise expressions by understanding the semantics of the image with the help of VQA model; (4) puts concise expression through semantically-equivalent perturbation to generate test suite.
 
 ![Method](method.jpg)
 
@@ -26,7 +26,7 @@ IMGAT is an image-aware text perturbation approach for automated testing VG mode
 
 1. Installation
 ```bash
-git clone https://github.com/IMGAT/IMGAT.git
+git clone https://github.com/IMGAT/PEELING.git
 pip install -r requirements.txt
 ```
 
@@ -39,12 +39,12 @@ pip install -r requirements.txt
 
    * download <a href="https://huggingface.co/whaleloops/phrase-bert"> phrase-bert </a>
 
-3. Replace "xxx"s with the path to datasets and the path to phrase-best model in `IMGAT.py`
+3. Replace "xxx"s with the path to datasets and the path to phrase-best model in `PEELING.py`
 
 4. Run scripts
 ```bash
    python entity_extraction.py 
-   python IMGAT.py
+   python PEELING.py
 ```
 ## Requirements
 
